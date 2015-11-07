@@ -1,0 +1,54 @@
+body {
+	font: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
+	color: #222;
+}
+
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 4.0rem;
+	letter-spacing: -0.05em;
+}
+
+h3 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1.3rem;
+	font-weight: 200;
+
+}
+
+.main-content {
+	text-align: center;
+}
+
+#hero {
+	position: relative;
+	padding: 250px;
+}
+
+#work {
+	background-color: #222;
+	padding: 200px;
+}
+
+
+.hamburger__icon {
+	position: fixed;
+	top: 30px;
+	right: 30px;
+}
+
+.fat-nav {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.fat-nav li, .fat-nav li a {
+	color: #222;
+	padding: 5px;
+}
+
+.hamburger .hamburger__icon, 
+.hamburger .hamburger__icon:before, 
+.hamburger .hamburger__icon:after {
+    background-color: #222;
+}
