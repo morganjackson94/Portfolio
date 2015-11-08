@@ -18,17 +18,24 @@ h3 {
 }
 
 .main-content {
-	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 120px;
 }
 
 #hero {
-	position: relative;
-	padding: 250px;
+	position: absolute;
+	padding: 150px;
+	-webkit-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
 }
 
 #work {
 	background-color: #222;
 	padding: 200px;
+}
+
+.posts {
+	width: 100%; 
 }
 
 
@@ -47,8 +54,9 @@ h3 {
 	padding: 5px;
 }
 
-.hamburger .hamburger__icon, 
-.hamburger .hamburger__icon:before, 
-.hamburger .hamburger__icon:after {
+.hamburger.active 
+.hamburger__icon:after, 
+.hamburger.active 
+.hamburger__icon:before {
     background-color: #222;
 }
