@@ -1,43 +1,161 @@
+@media screen and (min-width: 768px) {
+
+	.hero-static {
+		background-color: red;
+	}
+
+	.wrapper {
+  		padding: 0 20px; }
+}
+
+@media only screen and (max-width: 700px) {
+ }
+
+
 body {
 	font: 'Helvetica Neue', sans-serif;
 	font-weight: 200;
-	color: #222;
 }
 
 h1 {
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 4.0rem;
-	letter-spacing: -0.05em;
+	/*letter-spacing: -0.05em;*/
+}
+
+h2 {
+	font-family: 'Karla', sans-serif;
+	font-size: 1.5rem;
 }
 
 h3 {
 	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-weight: 200;
 
 }
 
-.main-content {
-	margin: 0 auto;
+header {
 	padding-bottom: 120px;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	overflow: hidden;
+	max-height: 750px;
 }
 
-#hero {
+.wrapper {
+	zoom: 1;
+	width: 100%;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px;
+	position: relative; 
+}
+
+.wrapper:before, 
+.wrapper:after {
+	content: "";
+	display: table; }
+
+.wrapper:after {
+clear: both; 
+
+}
+
+
+
+
+/*.main-content {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 120px;
+}*/
+
+
+video#bgvid { 
+	display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-20%) scale(1);
+    background-size: cover; 
+}
+
+.hero-static {
+
+}
+
+.hero-text {
+	text-align: center;
 	position: absolute;
+	top: 120px;
 	padding: 150px;
+	z-index: 99;
 	-webkit-transition: all 0.25s ease-out;
 	transition: all 0.25s ease-out;
 }
 
-#work {
-	background-color: #222;
-	padding: 200px;
+.title {
+	color: #fff;
 }
 
-.posts {
-	width: 100%; 
+
+.work {
+
 }
 
+.posts-container {
+	width: 100%;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 0;
+}
+
+.post {
+	margin-bottom: 60px;
+	box-sizing: border-box;
+	-webkit-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+
+.post-title small {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.post-title {
+	font-family: 'Helvetica', sans-serif;
+	line-height: 1.1;
+	font-size: 30px;
+	color: #fff;
+}
+
+
+.preview-link {
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	max-height: 920px;
+	padding: 30px;
+	color: white;
+	-webkit-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}	
 
 .hamburger__icon {
 	position: fixed;
