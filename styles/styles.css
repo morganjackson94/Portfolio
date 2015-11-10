@@ -13,7 +13,7 @@
 
 
 body {
-	font: 'Helvetica Neue', sans-serif;
+	font: 'Karla', sans-serif;
 	font-weight: 200;
 }
 
@@ -95,7 +95,7 @@ video#bgvid {
 }
 
 .hero-text {
-	text-align: center;
+	/*text-align: center;*/
 	position: absolute;
 	top: 120px;
 	padding: 150px;
@@ -109,8 +109,8 @@ video#bgvid {
 }
 
 
-.work {
-
+.large-6 {
+	margin-bottom: 45px;
 }
 
 .posts-container {
@@ -137,7 +137,7 @@ video#bgvid {
 }
 
 .post-title {
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Alike Angular', serif;
 	line-height: 1.1;
 	font-size: 30px;
 	color: #fff;
@@ -149,7 +149,7 @@ video#bgvid {
 	background-position: center;
 	background-size: cover;
 	width: 100%;
-	height: 450px;
+	height: 500px;
 	max-height: 920px;
 	padding: 30px;
 	color: white;
