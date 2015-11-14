@@ -108,6 +108,13 @@ video#bgvid {
 	color: #fff;
 }
 
+.title small {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	position: absolute;
+	bottom: 15px;
+}
+
 
 .large-6 {
 	margin-bottom: 45px;
@@ -157,7 +164,7 @@ video#bgvid {
 	transition: all 0.25s ease-out;
 }
 
-.preview-link:hover {
+.preview-link:hover  {
 	background-color: rgba(47, 46, 50,.9)!important;
 }
 
