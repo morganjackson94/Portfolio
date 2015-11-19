@@ -62,7 +62,7 @@ header {
 	display: table; }
 
 .wrapper:after {
-clear: both; 
+	clear: both; 
 
 }
 
@@ -97,8 +97,8 @@ video#bgvid {
 .hero-text {
 	/*text-align: center;*/
 	position: absolute;
-	top: 120px;
-	padding: 150px;
+	top: 205px;
+	padding: 75px;
 	z-index: 99;
 	-webkit-transition: all 0.25s ease-out;
 	transition: all 0.25s ease-out;
@@ -110,9 +110,9 @@ video#bgvid {
 
 .title small {
 	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 15px;
+	font-size: 10px;
 	position: absolute;
-	bottom: 15px;
+	bottom: 20px;
 }
 
 
