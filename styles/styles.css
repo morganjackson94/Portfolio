@@ -43,9 +43,6 @@ h3 {
 	font-weight: 300;
 }
 
-li {
-	display: inline;
-}
 
 .wrapper {
 	zoom: 1;
@@ -132,7 +129,7 @@ video#bgvid {
 
 .scroll {
 	position: fixed;
-	bottom: 20px;
+	bottom: 30px;
 	left: 47%;
 	color: #e5e5e5;
 	z-index: 99;
@@ -265,6 +262,10 @@ video#bgvid {
 
 .social-links {
 	list-style: none;
+}
+
+.social-links li {
+	display: inline;
 }
 
 .sc {
