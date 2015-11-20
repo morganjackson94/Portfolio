@@ -12,5 +12,13 @@
 		}
 		    
 	blink('.scroll');
+
+	setTimeout(fade_out, 10000);
+
+	function fade_out() {
+  		$(".scroll").fadeOut('slow').empty();
+		}
     
+
 }());
+
