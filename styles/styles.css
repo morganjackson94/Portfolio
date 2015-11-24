@@ -68,6 +68,18 @@ clear: both;
 	margin-bottom: 45px;
 }
 
+.flex-control-nav {
+	display: none;
+}
+
+.flex-direction-nav li .prev {
+	left: -10px;
+}
+
+.flex-direction-nav li a {
+	height: 40px;
+}
+
 
 /*** HEADER(home) ***/
 
@@ -300,7 +312,7 @@ video#bgvid {
 	font-size: 16px;
 	display: block;
 	margin-bottom: 15px;
-	color: #000;
+	color: #222;
 }
 
 .brand:hover {
@@ -312,3 +324,27 @@ video#bgvid {
 	width: 800px;
 	float: right;
 } 
+
+
+.work-section {
+	background-color: #f8f8f8;
+	overflow: auto;
+	text-align: center;
+}
+
+.work-content {
+	margin-bottom: 60px;
+	height: 100%;
+}
+
+.text {
+	text-align: left;
+	padding-top: 80px;
+}
+
+.logo {
+	float: right;
+}
+
+
+

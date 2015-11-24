@@ -18,7 +18,6 @@
 	function fade_out() {
   		$(".scroll").fadeOut('slow').empty();
 		}
-    
 
 }());
 
