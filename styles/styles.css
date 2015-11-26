@@ -161,6 +161,7 @@ video#bgvid {
 }
 
 .fat-nav li, .fat-nav li a {
+	font-family: 'Prata', serif;
 	color: #222;
 	padding: 5px;
 }
@@ -301,7 +302,7 @@ video#bgvid {
 	font-family: 'Prata', serif;
 	line-height: 1.1;
 	font-size: 100px;
-	color: #000;
+	color: #cdb79e;
 	z-index: 99;
 	-webkit-transition: all 0.25s ease-out;
 	transition: all 0.25s ease-out;
@@ -312,16 +313,16 @@ video#bgvid {
 	font-size: 16px;
 	display: block;
 	margin-bottom: 15px;
-	color: #222;
+	color: #8b7d6b;
+	background-color: #9ecdb7;
 }
 
 .brand:hover {
-	color: #ff3232;
+	color: #8b7d6b;
 }
 
 .hero-image {
-	height: 500px;
-	width: 800px;
+	width: 900px;
 	float: right;
 } 
 
@@ -333,13 +334,14 @@ video#bgvid {
 }
 
 .work-content {
+	padding-top: 80px;
 	margin-bottom: 60px;
 	height: 100%;
 }
 
 .text {
 	text-align: left;
-	padding-top: 80px;
+	padding-top: 100px;
 }
 
 .logo {
