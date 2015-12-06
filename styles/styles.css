@@ -26,6 +26,12 @@ a {
 	color: #505050;
 }
 
+a:hover {
+	color: #000;
+	-webkit-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+
 h1 {
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 11vh;
@@ -63,6 +69,11 @@ h3 {
 clear: both; 
 
 }
+
+.row {
+	max-width: 1600px!important;
+}
+
 
 .large-6 {
 	margin-bottom: 45px;
@@ -121,7 +132,7 @@ video#bgvid {
 
 .hero-text {
 	position: absolute;
-	top: 275px;
+	top: 260px;
 	left: 0px;
 	z-index: 99;
 	text-align: center;
@@ -162,6 +173,7 @@ video#bgvid {
 
 .fat-nav li, .fat-nav li a {
 	font-family: 'Prata', serif;
+	font-size: 25px;
 	color: #222;
 	padding: 5px;
 }
@@ -234,8 +246,8 @@ video#bgvid {
 /*** ABOUT(home) ***/
 
 .about-section {
-	background-color: #f8f8f8;
-	height: 100%;
+	background-color: #F8F8F8;
+	/*height: 100%;*/
 	overflow: auto;
 }
 
@@ -322,7 +334,9 @@ video#bgvid {
 }
 
 .hero-image {
-	width: 900px;
+	width: 80%;
+	bottom: 0;
+	right: 0;
 	float: right;
 } 
 
@@ -334,14 +348,47 @@ video#bgvid {
 }
 
 .work-content {
-	padding-top: 80px;
+	padding-top: 60px;
 	margin-bottom: 60px;
 	height: 100%;
+}
+
+.embed-container { 
+	position: relative;
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; } 
+	.embed-container iframe, 
+	.embed-container object, 
+	.embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; }
+
+.caption {
+	font-size: 14px;
+	text-align: center;
 }
 
 .text {
 	text-align: left;
 	padding-top: 100px;
+}
+
+.next-project {
+	text-align: center;
+	padding: 80px;
+	width: 100%;
+	background-color: #dfdfdf;
+}
+
+.next-project:hover {
+	background-color: #cccd9e;
+	-webkit-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
 }
 
 .logo {
