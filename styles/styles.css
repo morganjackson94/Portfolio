@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	font-size: 3vh;
 	font-weight: 300;
 }
@@ -188,6 +188,10 @@ video#bgvid {
 	font-size: 25px;
 	color: #222;
 	padding: 2px;
+}
+
+.fat-nav li a:hover {
+	text-decoration: line-through;
 }
 
 .hamburger.active 
@@ -331,7 +335,7 @@ video#bgvid {
 	font-family: 'Archivo Black', sans-serif;
 	line-height: 1.1;
 	font-weight: 400;
-	font-size: 100px;
+	font-size: 75px;
 	color: #00998c;
 	z-index: 99;
 	-webkit-transition: all 0.25s ease-out;
