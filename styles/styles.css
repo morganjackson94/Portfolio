@@ -11,6 +11,16 @@
 }
 
 @media only screen and (max-width: 700px) {
+	#bgvid {
+		display: none;
+	}
+
+	.hero-static {
+		background-color: red;
+	}
+
+	.wrapper {
+  		padding: 0 20px; }
  }
 
 
@@ -20,10 +30,11 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font: 'Karla', sans-serif;
 	font-weight: 300;
+	background-color: #dfdfdf;
 }
 
 a {
-	color: #505050;
+	color: #000;
 }
 
 a:hover {
@@ -127,7 +138,7 @@ video#bgvid {
 }
 
 .hero-static {
-
+	
 }
 
 .hero-text {
@@ -151,6 +162,7 @@ video#bgvid {
 }
 
 .scroll {
+	font-family: 'Inconsolata', sans-serif;
 	position: fixed;
 	bottom: 30px;
 	left: 47%;
@@ -172,10 +184,10 @@ video#bgvid {
 }
 
 .fat-nav li, .fat-nav li a {
-	font-family: 'Prata', serif;
+	font-family: 'Inconsolata', serif;
 	font-size: 25px;
 	color: #222;
-	padding: 5px;
+	padding: 2px;
 }
 
 .hamburger.active 
@@ -206,17 +218,17 @@ video#bgvid {
 }
 
 .post-title {
-	font-family: 'Prata', serif;
+	font-family: 'Archivo Black', serif;
 	line-height: 1.1;
-	font-size: 35px;
+	font-size: 25px;
 	color: #fff;
 }
 
 .post-title small {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	letter-spacing: 1.1px;
+	letter-spacing: 0px;
 	display: block;
 	margin-bottom: 20px;
 	color: #fff;
@@ -246,7 +258,7 @@ video#bgvid {
 /*** ABOUT(home) ***/
 
 .about-section {
-	background-color: #F8F8F8;
+	background-color: #c6c6c6;
 	/*height: 100%;*/
 	overflow: auto;
 }
@@ -266,7 +278,7 @@ video#bgvid {
 }
 
 .about-content p {
-	font-family: 'Prata', serif;
+	font-family: 'Inconsolata', serif;
 	letter-spacing: .60px;
 	color: #222;
 }
@@ -301,6 +313,11 @@ video#bgvid {
 
 /*** WORK ***/
 
+.back {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 18px;
+}
+
 .brand-hero {
 	position: absolute;
 	top: 120px;
@@ -311,30 +328,32 @@ video#bgvid {
 }
 
 .brand {
-	font-family: 'Prata', serif;
+	font-family: 'Archivo Black', sans-serif;
 	line-height: 1.1;
+	font-weight: 400;
 	font-size: 100px;
-	color: #cdb79e;
+	color: #00998c;
 	z-index: 99;
 	-webkit-transition: all 0.25s ease-out;
 	transition: all 0.25s ease-out;
 }
 
 .brand small {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	font-size: 16px;
+	letter-spacing: 1px;
 	display: block;
 	margin-bottom: 15px;
-	color: #8b7d6b;
-	background-color: #9ecdb7;
+	color: #000;
 }
 
 .brand:hover {
-	color: #8b7d6b;
+	color: #1273b4;
 }
 
 .hero-image {
-	width: 80%;
+	display: none;
+	width: 100%;
 	bottom: 0;
 	right: 0;
 	float: right;
@@ -342,15 +361,19 @@ video#bgvid {
 
 
 .work-section {
-	background-color: #f8f8f8;
+	background-color: #c6c6c6;
 	overflow: auto;
 	text-align: center;
 }
 
 .work-content {
-	padding-top: 60px;
+	padding-top: 45px;
 	margin-bottom: 60px;
 	height: 100%;
+}
+
+.work-content p {
+	font-family: 'Inconsolata', sans-serif;
 }
 
 .embed-container { 
@@ -368,8 +391,9 @@ video#bgvid {
 	width: 100%; 
 	height: 100%; }
 
-.caption {
-	font-size: 14px;
+.caption { 
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 16px;
 	text-align: center;
 }
 
@@ -379,19 +403,22 @@ video#bgvid {
 }
 
 .next-project {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 25px;
 	text-align: center;
-	padding: 80px;
+	padding: 75px;
 	width: 100%;
-	background-color: #dfdfdf;
+	background-color: #00998c;
 }
 
 .next-project:hover {
-	background-color: #cccd9e;
+	background-color: #1273b4;
 	-webkit-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
 }
 
 .logo {
+	padding-top: 90px;
 	float: right;
 }
 
